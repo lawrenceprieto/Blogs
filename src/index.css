@@ -23,3 +23,8 @@ code {
 .sub-heading {
   font-size: 19px;
 }
+
+.overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
