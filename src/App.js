@@ -8,8 +8,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Blogs />} />
-          <Route path="deploy-reactapp-to-ghpages" element={<DeployReactToGHPages />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogs/deploy-reactapp-to-ghpages" element={<DeployReactToGHPages />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

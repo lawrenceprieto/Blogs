@@ -11,7 +11,7 @@ function DeployReactToGHPages() {
 
                 <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item"><Link to="/blogs">Home</Link></li>
                         <li className="breadcrumb-item active" aria-current="page">deploy-reactapp-to-gh-pages</li>
                     </ol>
                 </nav>

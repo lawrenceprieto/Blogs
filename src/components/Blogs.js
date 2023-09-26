@@ -16,7 +16,7 @@ function Blogs() {
                 Pages, a simple and affordable method for distributing your 
                 React project and making it available to anybody with an 
                 internet connection."
-                link="/deploy-reactapp-to-ghpages"
+                link="deploy-reactapp-to-ghpages"
                 thumbnail={thumbnail}    
             />
         </>
