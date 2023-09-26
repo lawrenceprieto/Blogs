@@ -2,11 +2,20 @@ import homepageexample from "../assets/homepage.png";
 import scriptexample from "../assets/script.png";
 import poster from "../assets/poster/reacttogithub-poster.gif";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 function DeployReactToGHPages() {
     return (
         <>
-            <div className="container p-5" style={{width: "65%"}}>            
+            <div className="container p-5" style={{width: "65%"}}>
+
+                <nav aria-label="breadcrumb">
+                    <ol className="breadcrumb">
+                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item active" aria-current="page">deploy-react-app-to-github-pages</li>
+                    </ol>
+                </nav>
+
             <h1 className="mb-1">How to Deploy a React App to GitHub Pages</h1>
             <img src={poster} alt="poster" height="300px" width="500px"/>
             

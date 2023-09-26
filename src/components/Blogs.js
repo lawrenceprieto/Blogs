@@ -9,7 +9,7 @@ function Blogs() {
                     <div className="col-lg-6 px-0">
                         <h1 className="display-3 fst-italic">Deploy React App to Github Pages</h1>
                         <p className="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-                        <p className="lead mb-0"><Link to="/deploy-reactapp-to-ghpages" target="_blank" className="text-body-emphasis fw-bold">Continue reading...</Link></p>
+                        <p className="lead mb-0"><Link to="/deploy-reactapp-to-ghpages" className="text-body-emphasis fw-bold">Continue reading...</Link></p>
                     </div>
                 </div>
             </div>
