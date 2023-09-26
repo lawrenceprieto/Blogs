@@ -7,16 +7,16 @@ import { Link } from "react-router-dom";
 function DeployReactToGHPages() {
     return (
         <>
-            <div className="container p-5" style={{width: "65%"}}>
+            <div className="container p-5">
 
                 <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
                         <li className="breadcrumb-item"><Link to="/">Home</Link></li>
-                        <li className="breadcrumb-item active" aria-current="page">deploy-react-app-to-github-pages</li>
+                        <li className="breadcrumb-item active" aria-current="page">deploy-reactapp-to-gh-pages</li>
                     </ol>
                 </nav>
 
-                <h1 className="mb-1">How to Deploy a React App to GitHub Pages</h1>
+                <h1 className="mt-5 mb-1">How to Deploy a React App to GitHub Pages</h1>
                 <img src={poster} alt="poster" height="300px" width="500px"/>
             
                 <p className="sub-heading">
@@ -55,7 +55,7 @@ function DeployReactToGHPages() {
                 </p>
                 <p className="mt-5 sub-heading">
                     <span className="fw-bold fs-4">First,</span> We must include the Github Pages 
-                    Dependency Package.Install gh-pages as a dev dependency via npm: 
+                    Dependency Package. Install gh-pages as a dev dependency via npm: 
                 </p>
                 <div className="example">
                     <p>npm install gh-pages --save-dev</p>
@@ -99,17 +99,16 @@ function DeployReactToGHPages() {
                     take a moment, Once the deployment is complete, you'll see a success message in your 
                     terminal. Your React app is now live on GitHub Pages!
                 </p>
-                <h1 className="mt-5">Verify Your Deployment</h1>
-                <p className="sub-heading mb-4">
+                <h1 className="mt-5 mb-5">Verify Your Deployment</h1>
+                <p className="fw-bold mb-5 sub-heading">
                     Before sharing your new React app with the world, it's essential to verify that the 
                     deployment was successful. Follow these steps to ensure everything is in order:
                 </p>
-                <p className="sub-heading"><span className="fw-bold sub-heading">1. Visit Your GitHub Pages URL:</span> Navigate to your repository, then go to Github Pages and click the live link.</p>
-                <p className="sub-heading"><span className="fw-bold sub-heading">2. Explore Your App: </span> Once you've arrived at the live link, explore your React app. Verify that everything is in working order and that it complies with all criteria.</p>
-                <p className="sub-heading"><span className="fw-bold sub-heading">2. Test Links and Navigation: </span> To ensure everything is working properly, click on links and test any navigation in your app.</p>
-                <p className="sub-heading"><span className="fw-bold sub-heading">2. Check for Errors: </span> Watch the developer console of the browser for any faults or problems. Correct any warnings or mistakes that may show up.</p>
-                <p className="sub-heading"><span className="fw-bold sub-heading">2. Share Your Site: </span> Congratulations if everything seems to be in order! Your React application has been successfully installed on GitHub Pages and is prepared for public release.</p>
-
+                <p className="sub-heading mb-4"><span className="fw-bold sub-heading">1. Visit Your GitHub Pages URL:</span> Navigate to your repository, then go to Github Pages and click the live link.</p>
+                <p className="sub-heading mb-4"><span className="fw-bold sub-heading">2. Explore Your App: </span> Once you've arrived at the live link, explore your React app. Verify that everything is in working order and that it complies with all criteria.</p>
+                <p className="sub-heading mb-4"><span className="fw-bold sub-heading">3. Test Links and Navigation: </span> To ensure everything is working properly, click on links and test any navigation in your app.</p>
+                <p className="sub-heading mb-4"><span className="fw-bold sub-heading">4. Check for Errors: </span> Watch the developer console of the browser for any faults or problems. Correct any warnings or mistakes that may show up.</p>
+                <p className="sub-heading mb-5"><span className="fw-bold sub-heading">5. Share Your Site: </span> Congratulations if everything seems to be in order! Your React application has been successfully installed on GitHub Pages and is prepared for public release.</p>
                 <Footer />
             </div>
         </>
