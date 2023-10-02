@@ -1,5 +1,5 @@
-import homepageexample from "../assets/homepage.png";
-import scriptexample from "../assets/script.png";
+import homepageexample from "../assets/react/homepage.png";
+import scriptexample from "../assets/react/script.png";
 import poster from "../assets/poster/reacttogithub-poster.gif";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
